@@ -113,7 +113,7 @@ INSERT INTO item (ID_PEDIDO, ID_PRODUTO, QUANTIDADE, DATA_ENTREGA, STATUS, ID_TR
 -- Panela[1]
 INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (4, 'Amei! Só que chegou atrasado... culpa do correio.', 1, 1);
 -- Talheres[2]
-INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (4, 'Mais ou menos. Esperava mais pelo preço.', 1, 1);
+INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (4, 'Mais ou menos. Esperava mais pelo preço.', 1, 2);
 -- Liquidificador[3]
 INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (4, 'Gostei, mas poderia ser mais barato.', 2, 3);
 -- Faqueiro[4]
