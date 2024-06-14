@@ -70,7 +70,7 @@ bd.create_collection("produto", validator= {
                 "bsonType": "objectId",
                 "description": "Id da categoria do produto - Campo obrigatório do tipo ObjectId!"
             },
-            "avalicao": {
+            "avaliacao": {
                 "bsonType": "array",
                 "required": ["id_cliente", "nota"],
                 "properties": {
