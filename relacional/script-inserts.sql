@@ -139,6 +139,6 @@ INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (1, 'Det
 INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (5, 'Escreve', 4, 10);
 -- Agenda[11]
 INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (3, 'Horrivel! Não funcona de jeito nenhum.', 4, 11);
-INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (10, 'Muito bonito e organizado AMEEI', 5, 11);
+INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (5, 'Muito bonito e organizado AMEEI', 5, 11);
 -- Grampeador[12]
 INSERT INTO AVALIACAO (nota, comentario, id_cliente, id_produto) VALUES (5, 'Superou minhas expectativas! Vou comprar mais.', 1, 12);
