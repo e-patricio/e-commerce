@@ -165,7 +165,7 @@ produtos = [
         "nome": "Notebook",
         "preco": 3599.9,
         "id_categoria": idCategorias[1],
-        "avalicao":[
+        "avaliacao":[
             {
                 "id_cliente": idClientes[2],
                 "nota": 5,
