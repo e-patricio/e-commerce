@@ -12,7 +12,7 @@ JOIN produto p ON p.id = a.id_produto
 JOIN categoria c ON c. id = p.id_categoria
 GROUP BY c.nome;
 
--- Avaliações e produtos 
+-- Avaliações de todos os produtos 
 SELECT a.comentario, a.nota, p.nome AS Produto, p.preco, c.nome as Categoria
 FROM avaliacao a
 JOIN produto p ON p.id = a.id_produto
