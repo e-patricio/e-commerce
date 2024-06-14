@@ -19,7 +19,7 @@ JOIN produto p ON p.id = a.id_produto
 JOIN categoria c ON c.id = p.id_categoria;
 
 -- 5 Produtos mais vendidos
-SELECT p.nome, count(i.id_produto) AS QTD_Vendidos
+SELECT p.nome, SUM(i.quantidade) AS QTD_Vendidos
 FROM item i
 INNER JOIN produto p ON p.id = i.id_produto 
 GROUP BY p.nome
